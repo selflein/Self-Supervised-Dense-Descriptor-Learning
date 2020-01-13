@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+torch = "*"
+opencv-python = "*"
+pillow = "*"
+torchvision = "*"
+h5py = "*"
+matplotlib = "*"
+test-tube = "*"
+tqdm = "*"
+ipython = "*"
+ipdb = "*"
+numpy = "*"
+partial = "*"
+scipy = "*"
+
+[requires]
+python_version = "3.6"
